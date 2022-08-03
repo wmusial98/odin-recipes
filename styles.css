@@ -1,0 +1,56 @@
+/* Home Page and page design system CSS */
+
+body {
+    background-color: black;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    width: 900px;
+}
+
+h1 {
+    font-size: 48px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2, h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.reciLinks {
+    /* removes indent for unordered list */
+    margin: 0px;
+    padding: 0px;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    color: lightcoral;
+    text-decoration: none;
+} 
+
+a:hover {
+    color: lightsalmon;
+    text-decoration: none;
+}
+
+a:active {
+    color: lightcyan;
+}
+
+
+/* recipe page stylization */
+.reciImg{
+    height: 400px;
+    width: auto;
+}
+
+.reciSteps, .reciIngredients, .cookNote {
+    padding-top: 0px;
+    margin-top: 0px;
+}
